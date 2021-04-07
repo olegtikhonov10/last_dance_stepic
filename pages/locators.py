@@ -19,3 +19,4 @@ class BasePageLocators():
     USER_ICON = (By.CSS_SELECTOR, ".icon-user")
 class BasketPageLocators():
     EMPTY_MESSAGE=(By.CSS_SELECTOR, "#content_inner p")
+    BASKET_IS_EMPTY_TEXT = (By.CSS_SELECTOR, "#content_inner")
